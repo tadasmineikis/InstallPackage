@@ -53,6 +53,7 @@ leoA https://drive.google.com/open?id=0Bwr33zLJzGQObDl5dnJvVjJVQTA
   - gCMD_0.21.5 : programinis paketas generuojantis sintetinius žvaigždžių katalogus
   - nukopijuojami visi reikalingi failai leoa.README ir m33.README modelių veikimui. Dėl vietos apribojimų, izochronų bankus reikia parsisiųsti atskirai ir padėti į iso_bank katalogus.
 5. Pavyzdiniai modeliai skaičiuojami:
+
 > ./galemo leoa.README 1
 > ./galemo m33.README 1
   
