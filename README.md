@@ -55,5 +55,6 @@ leoA https://drive.google.com/open?id=0Bwr33zLJzGQObDl5dnJvVjJVQTA
 5. Pavyzdiniai modeliai skaičiuojami:
 
 > ./galemo leoa.README 1
+
 > ./galemo m33.README 1
   
