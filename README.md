@@ -1,6 +1,6 @@
 # IntallPackage
 
-Skriptas parengiantis aplinką 2-D galaktikų diskų evoliucijos modeliavimui Skripto veikimui reikalinga turėti instaliavus git. Po ubuntu tai galima padaryti:
+Skriptas parengiantis aplinką 2-D galaktikų diskų evoliucijos modeliavimui. Skripto veikimui reikalinga turėti instaliavus git. Po ubuntu tai galima padaryti:
 > sudo apt-get install git
 
 # Naudojimas
@@ -19,11 +19,11 @@ Susikuriam simbolinį link'ą:
 
 > ln -s $PWD\InstallPackage\INSTALL $PWD\INSTALL
 
-Suteikiam execute teises failui:
+Suteikiam exe teises failui:
 
 > chmod +x INSTALL
 
-Paleidžiam scriptą su kintamuoju CC, kuris nurodo kompiliatorių C++ kodo kompiliavimui, po linux tai bus g++, jei default g++ kompiliatorius nesukompiliuoja, galima nurodyti, pvz g++-4.9 (su 'senais' kompiliatoriais neveikia, pvz g++-4.6):
+Paleidžiam scriptą su kintamuoju CC, kuris nurodo kompiliatorių C++ kodo kompiliavimui, po linux tai bus g++, jei default g++ kompiliatorius nesukompiliuoja, galima nurodyti, pvz g++-4.9 (su 'senais' kompiliatoriais kyla problemų, pvz g++-4.6):
 
 > CC=g++ ./INSTALL
 
@@ -46,12 +46,12 @@ leoA https://drive.google.com/open?id=0Bwr33zLJzGQObDl5dnJvVjJVQTA
 
 > sudo apt-get install libarmadillo-dev libgsl0-dev
 
-3. Klonuojamos Galaxy, GalaxyPipeline ir GCMD repositorijos iš GitHub ir bandoma jas kompiliuoti.
-4. Jei viskas sėkmingai, sukuriamos pavyzdinės direoktorijos RUN_m33 ir RUN_leoA, kuriuose sukuriami simboliniai link'ai į visus reikalingus exe failus modelio veikimui, t.y.:
+3. Klonuojamos Galaxy, GalaxyPipeline ir gCMD repositorijos iš GitHub ir bandoma jas kompiliuoti.
+4. Jei viskas sėkmingai, sukuriamos pavyzdinės direktorijos RUN_m33 ir RUN_leoA, kuriose sukuriami simboliniai link'ai į visus reikalingus exe failus modelio veikimui, t.y.:
   - galemo: python skriptas modeliavimui
   - galaxy_2.0 : programinis paketas atliekantis 2-D galaktikos disko modeliavimą
   - gCMD_0.21.5 : programinis paketas generuojantis sintetinius žvaigždžių katalogus
-  - nukopijuojami visi reikalingi failai leoa.README ir m33.README modelių veikimui. Dėl vietos apribojimų, izochronų bankus reikia parsisiųsti atskirai ir padėti į iso_bank katalogus.
+  - nukopijuojami visi reikalingi failai leoa.README ir m33.README modelių veikimui. Dėl vietos github'e apribojimų, izochronų bankus reikia parsisiųsti atskirai. Izochronų bankus reikia padėti į iso_bank katalogus.
 5. Pavyzdiniai modeliai atitinkamose direktorijose skaičiuojami:
 
 > ./galemo leoa.README 1
