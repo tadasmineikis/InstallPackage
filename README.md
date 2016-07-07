@@ -1,6 +1,6 @@
 # IntallPackage
 
-Skriptas parengiantis aplinką 2-D galaktikų diskų evoliucijos modeliavimui Skripto veikimui reikalinga turėti instaliavu git. Po ubuntu tai galima padaryti:
+Skriptas parengiantis aplinką 2-D galaktikų diskų evoliucijos modeliavimui Skripto veikimui reikalinga turėti instaliavus git. Po ubuntu tai galima padaryti:
 > sudo apt-get install git
 
 # Naudojimas
