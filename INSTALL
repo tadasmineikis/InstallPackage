@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
@@ -125,6 +124,7 @@ if [ -d "RUN_leoA" ]
 		ln -sf $PWD/GCMD/gCMD_0.21.5 $PWD/RUN_leoA/gCMD_0.21.5
 	else
 		mkdir RUN_leoA
+		mkdir RUN_leoA/iso_bank
 		ln -sf $PWD/GalaxyPipeline/galemo.py $PWD/RUN_leoA/galemo
 		ln -sf $PWD/Galaxy/galaxy_2.0 $PWD/RUN_leoA/galaxy_2.0
 		ln -sf $PWD/GCMD/gCMD_0.21.5 $PWD/RUN_leoA/gCMD_0.21.5
@@ -141,6 +141,7 @@ if [ -d "RUN_m33" ]
 		ln -sf $PWD/GCMD/gCMD_0.21.5 $PWD/RUN_m33/gCMD_0.21.5
 	else
 		mkdir RUN_m33
+		mkdir RUN_m33/iso_bank
 		ln -sf $PWD/GalaxyPipeline/galemo.py $PWD/RUN_m33/galemo
 		ln -sf $PWD/Galaxy/galaxy_2.0 $PWD/RUN_m33/galaxy_2.0
 		ln -sf $PWD/GCMD/gCMD_0.21.5 $PWD/RUN_m33/gCMD_0.21.5
@@ -149,6 +150,7 @@ if [ -d "RUN_m33" ]
 
 fi
 
+echo ""${GREEN} Installation completed successfully! ${NC}""
 echo "download and unpack isochrones in corresponging directories iso_bank"
 echo "${GREEN}m33 https://drive.google.com/open?id=0Bwr33zLJzGQORE9uVU5iU3RkMEk${NC}"
 echo "${GREEN}leoA https://drive.google.com/open?id=0Bwr33zLJzGQObDl5dnJvVjJVQTA${NC}"
