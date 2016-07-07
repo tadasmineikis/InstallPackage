@@ -42,8 +42,10 @@ leoA https://drive.google.com/open?id=0Bwr33zLJzGQObDl5dnJvVjJVQTA
 2. Patikrina ar visos reikalingos bibliotekos intaliavimui yra systemoje. Patikrinimui naudojamas ldconfig. 
   - Jei ldconfig sistemoje nerastas, instaliavimas tęsiamas nepatikrinus bibliotekų.
   - Jei ldconfig randamas, tačiau nerandamos bibliotekos, nurodoma kokių konrečiai bibliotekų trūksta ir instaliavimas atšaukiamas.
-  - jei bibliotekų trūksta, jas galima instaliuoti taip (veikia po ubuntu):
+  - jei bibliotekų trūksta, jas galima instaliuoti taip (veikia po ubuntu): 
+
 > sudo apt-get install libarmadillo-dev libgsl0-dev
+
 3. Klonuojamos Galaxy, GalaxyPipeline ir GCMD repositorijos iš GitHub ir bandoma jas kompiliuoti.
 4. Jei viskas sėkmingai, sukuriamos pavyzdinės direoktorijos RUN_m33 ir RUN_leoA, kuriuose sukuriami simboliniai link'ai į visus reikalingus exe failus modelio veikimui, t.y.:
   - galemo: python skriptas modeliavimui
