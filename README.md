@@ -17,4 +17,11 @@ Susikuriam simbolinį link'ą:
 
 > ln -s $PWD\INSTALL $PWD\INSTALL
 
+Suteikiam execute teise failui:
+
+> chmod +x INSTALL
+
+Paleidžiam scriptą:
+
+> ./INSTALL
 
