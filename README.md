@@ -21,7 +21,7 @@ Suteikiam execute teise failui:
 
 > chmod +x INSTALL
 
-Paleidžiam scriptą su kintamuoju CC, kuris nurodo kompiliatorių C++ kodo kompiliavimui, po linux tai bus g++, jei default g++ kompiliatorius nesukompiliuoja, galima nurodyti, pvz g++-4.9:
+Paleidžiam scriptą su kintamuoju CC, kuris nurodo kompiliatorių C++ kodo kompiliavimui, po linux tai bus g++, jei default g++ kompiliatorius nesukompiliuoja, galima nurodyti, pvz g++-4.9 (su 'senais' kompiliatoriais neveikia, pvz g++-4.6):
 
 > CC=g++ ./INSTALL
 
@@ -43,7 +43,7 @@ leoA https://drive.google.com/open?id=0Bwr33zLJzGQObDl5dnJvVjJVQTA
 3. Klonuojamos Galaxy, GalaxyPipeline ir GCMD repositorijos iš GitHub ir bandoma jas kompiliuoti.
 4. Jei viskas sėkmingai, sukuriamos pavyzdinės direoktorijos RUN_m33 ir RUN_leoA, kuriuose sukuriami simboliniai link'ai į visus reikalingus exe failus modelio veikimui, t.y.:
   - galemo: python skriptas modeliavimui
-  - galaxy_2.0 : exe failas atliekantis 2-D galaktikos disko modeliavimą
+  - galaxy_2.0 : programinis paketas atliekantis 2-D galaktikos disko modeliavimą
   - gCMD_0.21.5 : programinis paketas generuojantis sintetinius žvaigždžių katalogus
   - nukopijuojami visi reikalingi failai leoa.README ir m33.README modelių veikimui. Dėl vietos apribojimų, izochronų bankus reikia parsisiųsti atskirai ir padėti į iso_bank katalogus.
 5. Pavyzdiniai modeliai skaičiuojami:
