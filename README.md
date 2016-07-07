@@ -19,7 +19,7 @@ Susikuriam simbolinį link'ą:
 
 > ln -s $PWD\InstallPackage\INSTALL $PWD\INSTALL
 
-Suteikiam execute teise failui:
+Suteikiam execute teises failui:
 
 > chmod +x INSTALL
 
