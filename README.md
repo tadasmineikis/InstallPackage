@@ -29,6 +29,7 @@ Jei matome išvedimą : "Installation completed successfully!", reiškia viskas 
 Sekančios dvi eilutės nurodo iš kur galima parsisiųsti izochronų bankus m33 ir leoA pavyzdžiams:
 
 m33 https://drive.google.com/open?id=0Bwr33zLJzGQORE9uVU5iU3RkMEk
+
 leoA https://drive.google.com/open?id=0Bwr33zLJzGQObDl5dnJvVjJVQTA
 
 Šiuos bankus reikia padėti į iso_bank aplanką atitinkamoje RUN direktorijoje (RUN_leoA ir RUN_m33)
