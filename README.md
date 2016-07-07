@@ -7,6 +7,7 @@ Skriptas parengiantis aplinką 2-D galaktikų diskų evoliucijos modeliavimui Sk
 Susikuriam katalogą, kuriame norime sukurti modeliavimo aplinką:
 pvz.:
 > mkdir GALEMO
+
 > cd GALEMO
 
 Parsisiunčiam skriptą iš GitHub
