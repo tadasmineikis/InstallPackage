@@ -25,7 +25,7 @@ Suteikiam exe teises failui:
 
 Paleidžiam scriptą su kintamuoju CC, kuris nurodo kompiliatorių C++ kodo kompiliavimui, po linux tai bus g++, jei default g++ kompiliatorius nesukompiliuoja, galima nurodyti, pvz g++-4.9 (su 'senais' kompiliatoriais kyla problemų, pvz g++-4.6):
 
-> CC=g++ ./INSTALL
+> CC=g++4.9 ./INSTALL
 
 Jei matome išvedimą : "Installation completed successfully!", reiškia viskas sėkmingai susikompiliavo.
 Sekančios dvi eilutės nurodo iš kur galima parsisiųsti izochronų bankus m33 ir leoA pavyzdžiams:
