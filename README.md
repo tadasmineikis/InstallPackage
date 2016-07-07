@@ -52,7 +52,7 @@ leoA https://drive.google.com/open?id=0Bwr33zLJzGQObDl5dnJvVjJVQTA
   - galaxy_2.0 : programinis paketas atliekantis 2-D galaktikos disko modeliavimą
   - gCMD_0.21.5 : programinis paketas generuojantis sintetinius žvaigždžių katalogus
   - nukopijuojami visi reikalingi failai leoa.README ir m33.README modelių veikimui. Dėl vietos apribojimų, izochronų bankus reikia parsisiųsti atskirai ir padėti į iso_bank katalogus.
-5. Pavyzdiniai modeliai skaičiuojami:
+5. Pavyzdiniai modeliai atitinkamose direktorijose skaičiuojami:
 
 > ./galemo leoa.README 1
 
