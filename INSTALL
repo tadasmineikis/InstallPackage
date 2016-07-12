@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# choose dev or master branches
+BRANCH=$1
+
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
@@ -60,11 +63,12 @@ if [ -d "Galaxy" ]
 		# if yes, update it
 		cd Galaxy
 		git fetch origin
-		git reset --hard origin/master
+		git reset --hard origin/$BRANCH
 		cd ..
 	else
 		# if no, create it
 		git clone https://github.com/tadasmineikis/Galaxy.git
+		git checkout $BRANCH
 fi
 
 cd Galaxy
@@ -85,11 +89,12 @@ if [ -d "GCMD" ]
 		# if yes, update it
 		cd GCMD
 		git fetch origin
-		git reset --hard origin/master
+		git reset --hard origin/$BRANCH
 		cd ..
 	else
 		# if no, create it
 		git clone https://github.com/tadasmineikis/GCMD.git
+		git checkout $BRANCH
 fi
 
 cd GCMD
@@ -108,11 +113,12 @@ if [ -d "GalaxyPipeline" ]
 		# if yes, update it
 		cd GalaxyPipeline
 		git fetch origin
-		git reset --hard origin/master
+		git reset --hard origin/$BRANCH
 		cd ..
 	else
 		# if no, create it
 		git clone https://github.com/tadasmineikis/GalaxyPipeline.git
+		git checkout $BRANCH
 fi
 
 # create RUN environment
