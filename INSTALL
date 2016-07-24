@@ -68,7 +68,7 @@ if [ -d "Galaxy" ]
 fi
 
 cd Galaxy
-make 2>&1 >/dev/null
+make -j4 2>&1 >/dev/null
 
 if [ $? -ne 0 ]; 
 then echo "${RED}error in compilation Galaxy package! Aborting.${NC}";
@@ -93,7 +93,7 @@ if [ -d "GCMD" ]
 fi
 
 cd GCMD
-make 2>&1 >/dev/null
+make -j4 2>&1 >/dev/null
 if [ $? -ne 0 ]; 
 then echo "${RED}error in compilation GCMD package! Aborting.${NC}";
      exit; 
