@@ -60,7 +60,7 @@ if [ -d "Galaxy" ]
 		# if yes, update it
 		cd Galaxy
 		git fetch origin
-		git reset --hard origin dev
+		git reset --hard origin/dev
 		cd ..
 	else
 		# if no, create it
@@ -86,7 +86,7 @@ if [ -d "GCMD" ]
 		# if yes, update it
 		cd GCMD
 		git fetch origin
-		git reset --hard origin dev
+		git reset --hard origin/dev
 		cd ..
 	else
 		# if no, create it
@@ -110,7 +110,7 @@ if [ -d "GalaxyPipeline" ]
 		# if yes, update it
 		cd GalaxyPipeline
 		git fetch origin
-		git reset --hard origin dev
+		git reset --hard origin/dev
 		cd ..
 	else
 		# if no, create it
